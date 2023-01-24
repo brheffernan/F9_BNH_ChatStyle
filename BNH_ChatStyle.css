@@ -20,3 +20,7 @@
 .five9-action-btn:hover:not(disabled) {
     background-color: #ff6600 !important;
 }
+
+.ui-header {
+	background-color: #0F3149 !important;	
+}
