@@ -28,3 +28,32 @@
     border-width: 0 !important;
     background-color: #0F3149 !important;
 }
+
+legend,
+.ui-input-text input,
+.ui-input-search input {
+    color: inherit;
+    text-shadow: inherit;
+}
+
+.ui-input-text input,
+.ui-input-search input {
+    background-color: #fff !important;
+}
+
+.ui-input-text:not(.validation-error),
+textarea:not(.validation-error) {
+    border: 1px solid #cccece !important;
+}
+.ui-input-text:hover:not(.validation-error),
+textarea:hover:not(.validation-error) {
+    border: 1px solid #b4c900 !important;
+    outline: 0 !important;
+}
+.ui-btn.ui-focus,
+.ui-input-text.ui-focus:not(.validation-error),
+textarea:focus:not(.validation-error) {
+    border: 1px solid #b4c900 !important;
+    outline: 0 !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #b4c900 !important;
+}
