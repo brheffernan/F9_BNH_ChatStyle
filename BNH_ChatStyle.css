@@ -1,0 +1,22 @@
+.five9-chat-button {
+
+	background-color: #ff6600 !important;
+	background: #ff6600 !important;
+}
+
+.five9-action-btn {
+    border: 1px solid #1e6a91 !important;
+    background-color: #ff6600 !important;
+    color: #fff !important;
+}
+
+.five9-action-btn:focus:not(disabled) {
+    outline: none;
+    box-shadow: 0 0 6px 0 #ff6600 !important;
+    background-color: #ff6600 !important;
+}
+
+
+.five9-action-btn:hover:not(disabled) {
+    background-color: #ff6600 !important;
+}
